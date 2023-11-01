@@ -3,12 +3,12 @@ var arrExams = [];
 arrExams[0] = {
     Subject: "Штучний інтелект",
     Data: "1.11.2023",
-    Audience: 202
+    Audience: 232
 };
 arrExams[1] = {
     Subject: "Проектування",
     Data: "2.11.2023",
-    Audience: 202
+    Audience: 212
 };
 arrExams[2] = {
     Subject: "Філософія",
