@@ -17,7 +17,7 @@ arrExams[2] = {
 };
 arrExams[3] = {
     Subject: "Екологія",
-    Data: "3.11.2023",
+    Data: "20.11.2023",
     Audience: 202
 };
 arrExams[4] = {

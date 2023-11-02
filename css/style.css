@@ -25,7 +25,7 @@ header{
     font-size: 35px;
 }
 .b-div-task{
-    font-size: 26px;
+    font-size: 20px;
     padding: 10px 10px 10px 10px;
 }
 .b-button{
@@ -45,3 +45,55 @@ header{
     background-color: darkorange;
     cursor: pointer;
 }
+.menu-main{
+    list-style: none;
+    margin: 40px 0 5 px;
+    padding: 25px 0 5px;
+    text-align: center;
+    background-color: rgb(184, 236, 184);
+    color: black;
+}
+.menu-main li{
+    display: inline-block;
+}
+.menu-main li:after{
+    content: "|";
+    color: black;
+    display: inline-block;
+    vertical-align: top;
+}
+.menu-main li:last-child:after{
+    content: none;
+}
+.menu-main a{
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
+    position: relative;
+    padding-bottom: 20px;
+    margin: 0 34px 0 30px;
+    font-size: 17px;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: color .2s;
+}
+.menu-main a, .menu-main a:visited{
+    color: #7e0f7e;
+}
+.menu-main a:hover{
+    color: #67067a;
+}
+.menu-main a:before, .menu-main a:after{
+    content: "";
+    position: absolute;
+    height: 4px;
+    top: auto;
+    right: 50%;
+    bottom: -5px;
+    left: 50%;
+    background: #67067a;
+}
+/* .menu-main a:hover:before, .menu-main a:after{
+
+
+} */
