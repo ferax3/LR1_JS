@@ -1,13 +1,13 @@
 //task1
 function do_text() {
-    var innerDivs = document.getElementById('task3_1').querySelectorAll('div'); // Знаходимо всі div-елементи всередині блоку 'task3_1'
-
+    var innerDivs = document.getElementById('task3_1').querySelectorAll('div');
+    //замикання
     innerDivs.forEach(function(div) {
-        var text = div.textContent.trim(); // Отримуємо текст з блоку і обрізаємо зайві пробіли в початку і в кінці
+        var text = div.textContent.trim();
 
-        if (text.length > 10) { // Перевіряємо, чи текст потребує обрізки
-            var truncatedText = text.slice(0, 10) + '...'; // Обрізуємо текст та додаємо три крапки
-            div.textContent = truncatedText; // Замінюємо вміст блоку обрізаним текстом
+        if (text.length > 10) {
+            var truncatedText = text.slice(0, 10) + '...';
+            div.textContent = truncatedText;
         }
     });
 }

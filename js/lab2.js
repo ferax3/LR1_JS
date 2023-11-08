@@ -1,6 +1,6 @@
 function error(value){
     var x = parseInt(value);
-    var html = "";  // Initialize html
+    var html = "";
     if(x < 0 || x > 108){
         html = html + "<h2 style='color: red;'>ПОМИЛКА ВВОДУ № КВАРТИРИ!!!</h2>";
     }
