@@ -1,6 +1,6 @@
 //task1
 function do_text() {
-    var innerDivs = document.getElementById('task3_1').querySelectorAll('div');
+    var innerDivs = document.getElementById('task3_1').querySelectorAll('div');//кожен div всередині таска
     //замикання
     innerDivs.forEach(function(div) {
         var text = div.textContent.trim();
