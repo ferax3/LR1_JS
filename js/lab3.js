@@ -11,6 +11,8 @@ function do_text() {
         }
     });
 }
+
+
 //task2
 var numRows = 0;
 var numCols = 0;

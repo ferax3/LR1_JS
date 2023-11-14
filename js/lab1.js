@@ -2,12 +2,12 @@ var arrExams = [];
 
 arrExams[0] = {
     Subject: "Штучний інтелект",
-    Data: "1.11.2023",
+    Data: "8.11.2023",
     Audience: 232
 };
 arrExams[1] = {
     Subject: "Проектування",
-    Data: "2.11.2023",
+    Data: "9.11.2023",
     Audience: 212
 };
 arrExams[2] = {
